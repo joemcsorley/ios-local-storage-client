@@ -49,7 +49,7 @@
 		0B9BC1F81C29DC0900535519 /* LSAPIClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSAPIClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9BC1FC1C29DC0900535519 /* LSAPIClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAPIClientTests.m; sourceTree = "<group>"; };
 		0B9BC1FE1C29DC0900535519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B9BC2081C29E4A000535519 /* LSAPIClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSAPIClient-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		0B9BC2081C29E4A000535519 /* LSAPIClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LSAPIClient-Bridging-Header.h"; path = "Pod/LSAPIClient-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		0B9BC2091C29E4A000535519 /* LSAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSAPIClient.swift; path = Pod/LSAPIClient.swift; sourceTree = "<group>"; };
 		0B9BC20B1C29E62D00535519 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
 		0B9BC20D1C29EE5700535519 /* LSRequestSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSRequestSequence.swift; path = Pod/LSRequestSequence.swift; sourceTree = "<group>"; };
@@ -93,7 +93,6 @@
 			children = (
 				0B9BC2071C29E3FC00535519 /* Pod */,
 				0B9BC1E11C29DC0900535519 /* LSAPIClient */,
-				0B9BC2081C29E4A000535519 /* LSAPIClient-Bridging-Header.h */,
 				0B9BC1FB1C29DC0900535519 /* LSAPIClientTests */,
 				0B9BC1E01C29DC0900535519 /* Products */,
 				317FA056329E1F5246DA9F7C /* Pods */,
@@ -146,6 +145,7 @@
 		0B9BC2071C29E3FC00535519 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				0B9BC2081C29E4A000535519 /* LSAPIClient-Bridging-Header.h */,
 				0B9BC2091C29E4A000535519 /* LSAPIClient.swift */,
 				0B9BC20D1C29EE5700535519 /* LSRequestSequence.swift */,
 			);

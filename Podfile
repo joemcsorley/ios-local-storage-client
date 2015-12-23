@@ -6,6 +6,7 @@
 target 'LSAPIClient' do
   pod 'PureLayout', '2.0.6'
   pod 'PromiseKit', '1.6.0'
+  pod 'CocoaLumberjack', '2.0.3'
 end
 
 target 'LSAPIClientTests' do
