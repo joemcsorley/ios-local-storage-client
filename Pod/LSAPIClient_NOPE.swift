@@ -7,8 +7,9 @@
 //
 
 import Foundation
+//import PromiseKit
 
-
+/*
 typealias responseTransformerBlockType = ([NSObject : AnyObject]!) -> [NSObject : AnyObject]!
 
 
@@ -51,7 +52,7 @@ private let signInData:[NSObject:AnyObject] = [
 ]
 
 
-class LSAPIClient: NSObject {
+class LSAPIClient_NOPE: NSObject {
     
     static func setApiRootURLString(str:String) {}
     static func setRequestPathGetURNRules(arr:[NSObject]) {}
@@ -61,31 +62,31 @@ class LSAPIClient: NSObject {
     static func setRequestPathChangePassword(arr:[NSObject]) {}
     static func addGlobalHeaderValue(value:String, forKey:String) {}
     
-    static func resumeRequestSequence(requestSequence:LSRequestSequence, responseTransformer:responseTransformerBlockType?) -> PMKPromise {
-        return PMKPromise.new({ (fulfill, reject) -> Void in
+    static func resumeRequestSequence(requestSequence:LSRequestSequence, responseTransformer:responseTransformerBlockType?) -> Promise<[NSObject:AnyObject]> {
+        return Promise { fulfill, reject in
             let data:[NSObject:AnyObject] = ["data":"its all good"]
             var result = data
             if let transformer = responseTransformer {
                 result = transformer(data)
             }
             fulfill(result)
-        })
+        }
     }
 
-    static func resumeRequestSequence(requestSequence:LSRequestSequence) -> PMKPromise {
+    static func resumeRequestSequence(requestSequence:LSRequestSequence) -> Promise<[NSObject:AnyObject]> {
         return resumeRequestSequence(requestSequence, responseTransformer: nil)
     }
     
-    static func signUp(data:[NSObject : AnyObject]) -> PMKPromise {
-        return PMKPromise.new({ (fulfill, reject) -> Void in
+    static func signUp(data:[NSObject : AnyObject]) -> Promise<[NSObject:AnyObject]> {
+        return Promise { fulfill, reject in
             fulfill(signInData);
-        })
+        }
     }
     
-    static func signInWithUserName(userName:String, password:String) -> PMKPromise {
-        return PMKPromise.new({ (fulfill, reject) -> Void in
+    static func signInWithUserName(userName:String, password:String) -> Promise<[NSObject:AnyObject]> {
+        return Promise { fulfill, reject in
             fulfill(signInData);
-        })
+        }
     }
 
     static func currentUserName() -> String? {
@@ -114,4 +115,6 @@ class LSAPIClient: NSObject {
     
 }
 
-class LHAPIClient: LSAPIClient {}
+class LHAPIClient_NOPE: LSAPIClient {}
+
+*/

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B474A891C3AD8C800F9075B /* LSAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B474A881C3AD8C800F9075B /* LSAPIClient.m */; };
 		0B9BC1E41C29DC0900535519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9BC1E31C29DC0900535519 /* main.m */; };
 		0B9BC1E71C29DC0900535519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9BC1E61C29DC0900535519 /* AppDelegate.m */; };
 		0B9BC1EA1C29DC0900535519 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9BC1E91C29DC0900535519 /* ViewController.m */; };
@@ -14,7 +15,7 @@
 		0B9BC1EF1C29DC0900535519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9BC1EE1C29DC0900535519 /* Assets.xcassets */; };
 		0B9BC1F21C29DC0900535519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B9BC1F01C29DC0900535519 /* LaunchScreen.storyboard */; };
 		0B9BC1FD1C29DC0900535519 /* LSAPIClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9BC1FC1C29DC0900535519 /* LSAPIClientTests.m */; };
-		0B9BC20A1C29E4A000535519 /* LSAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9BC2091C29E4A000535519 /* LSAPIClient.swift */; };
+		0B9BC20A1C29E4A000535519 /* LSAPIClient_NOPE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9BC2091C29E4A000535519 /* LSAPIClient_NOPE.swift */; };
 		0B9BC20C1C29E62D00535519 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9BC20B1C29E62D00535519 /* CouchbaseLite.framework */; };
 		0B9BC20E1C29EE5700535519 /* LSRequestSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9BC20D1C29EE5700535519 /* LSRequestSequence.swift */; };
 		0B9BC2111C29F64100535519 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9BC20F1C29F64100535519 /* CFNetwork.framework */; };
@@ -22,7 +23,7 @@
 		0B9BC2141C29F65700535519 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9BC2131C29F65700535519 /* SystemConfiguration.framework */; };
 		0B9BC2171C29F67200535519 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9BC2151C29F67200535519 /* libsqlite3.tbd */; };
 		0B9BC2181C29F67200535519 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9BC2161C29F67200535519 /* libz.tbd */; };
-		BC836CB99F45E813B941C5C1 /* libPods-LSAPIClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD04F706098690BAD2891831 /* libPods-LSAPIClient.a */; };
+		957F7677DC2F3D1909A00A23 /* libPods-LSAPIClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 374A137BCBBC48DDC8E5C914 /* libPods-LSAPIClient.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B474A871C3AD8C800F9075B /* LSAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSAPIClient.h; path = Pod/LSAPIClient.h; sourceTree = "<group>"; };
+		0B474A881C3AD8C800F9075B /* LSAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSAPIClient.m; path = Pod/LSAPIClient.m; sourceTree = "<group>"; };
 		0B9BC1DF1C29DC0900535519 /* LSAPIClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSAPIClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9BC1E31C29DC0900535519 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0B9BC1E51C29DC0900535519 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,7 +53,7 @@
 		0B9BC1FC1C29DC0900535519 /* LSAPIClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAPIClientTests.m; sourceTree = "<group>"; };
 		0B9BC1FE1C29DC0900535519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B9BC2081C29E4A000535519 /* LSAPIClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LSAPIClient-Bridging-Header.h"; path = "Pod/LSAPIClient-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		0B9BC2091C29E4A000535519 /* LSAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSAPIClient.swift; path = Pod/LSAPIClient.swift; sourceTree = "<group>"; };
+		0B9BC2091C29E4A000535519 /* LSAPIClient_NOPE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSAPIClient_NOPE.swift; path = Pod/LSAPIClient_NOPE.swift; sourceTree = "<group>"; };
 		0B9BC20B1C29E62D00535519 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
 		0B9BC20D1C29EE5700535519 /* LSRequestSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSRequestSequence.swift; path = Pod/LSRequestSequence.swift; sourceTree = "<group>"; };
 		0B9BC20F1C29F64100535519 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -59,8 +62,8 @@
 		0B9BC2151C29F67200535519 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		0B9BC2161C29F67200535519 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		28F8842268942673FFDE95C9 /* Pods-LSAPIClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSAPIClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSAPIClient/Pods-LSAPIClient.debug.xcconfig"; sourceTree = "<group>"; };
+		374A137BCBBC48DDC8E5C914 /* libPods-LSAPIClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSAPIClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE2CDEBAF8981EB2FC95159 /* Pods-LSAPIClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSAPIClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSAPIClient/Pods-LSAPIClient.release.xcconfig"; sourceTree = "<group>"; };
-		FD04F706098690BAD2891831 /* libPods-LSAPIClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSAPIClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +77,7 @@
 				0B9BC2111C29F64100535519 /* CFNetwork.framework in Frameworks */,
 				0B9BC2121C29F64100535519 /* Security.framework in Frameworks */,
 				0B9BC20C1C29E62D00535519 /* CouchbaseLite.framework in Frameworks */,
-				BC836CB99F45E813B941C5C1 /* libPods-LSAPIClient.a in Frameworks */,
+				957F7677DC2F3D1909A00A23 /* libPods-LSAPIClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +149,9 @@
 			isa = PBXGroup;
 			children = (
 				0B9BC2081C29E4A000535519 /* LSAPIClient-Bridging-Header.h */,
-				0B9BC2091C29E4A000535519 /* LSAPIClient.swift */,
+				0B474A871C3AD8C800F9075B /* LSAPIClient.h */,
+				0B474A881C3AD8C800F9075B /* LSAPIClient.m */,
+				0B9BC2091C29E4A000535519 /* LSAPIClient_NOPE.swift */,
 				0B9BC20D1C29EE5700535519 /* LSRequestSequence.swift */,
 			);
 			name = Pod;
@@ -161,7 +166,7 @@
 				0B9BC20F1C29F64100535519 /* CFNetwork.framework */,
 				0B9BC2101C29F64100535519 /* Security.framework */,
 				0B9BC20B1C29E62D00535519 /* CouchbaseLite.framework */,
-				FD04F706098690BAD2891831 /* libPods-LSAPIClient.a */,
+				374A137BCBBC48DDC8E5C914 /* libPods-LSAPIClient.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -326,10 +331,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B9BC20A1C29E4A000535519 /* LSAPIClient.swift in Sources */,
+				0B9BC20A1C29E4A000535519 /* LSAPIClient_NOPE.swift in Sources */,
 				0B9BC1EA1C29DC0900535519 /* ViewController.m in Sources */,
 				0B9BC20E1C29EE5700535519 /* LSRequestSequence.swift in Sources */,
 				0B9BC1E71C29DC0900535519 /* AppDelegate.m in Sources */,
+				0B474A891C3AD8C800F9075B /* LSAPIClient.m in Sources */,
 				0B9BC1E41C29DC0900535519 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,7 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daveramsey.LSAPIClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "LSAPIClient-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pod/LSAPIClient-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -487,7 +493,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daveramsey.LSAPIClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "LSAPIClient-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pod/LSAPIClient-Bridging-Header.h";
 			};
 			name = Release;
 		};

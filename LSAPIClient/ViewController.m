@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-#import <PureLayout/PureLayout.h>
 #import <PromiseKit/PromiseKit.h>
-#import "LSAPIClient-Swift.h"
+#import <PureLayout/PureLayout.h>
+#import "LSAPIClient.h"
 
 
 @interface ViewController ()
